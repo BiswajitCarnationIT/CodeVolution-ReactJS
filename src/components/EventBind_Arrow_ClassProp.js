@@ -1,7 +1,8 @@
 
 /* -----Binding event handler use Arrow function as class property --- 
     Class property as arrow function
-   - -- Change the way you define your methods in class ---*/
+   - -- Change the way you define your methods in class ---
+    Approach 4                     */
 
 import React, { Component } from 'react'
 

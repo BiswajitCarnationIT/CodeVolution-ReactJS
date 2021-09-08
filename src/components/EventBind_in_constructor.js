@@ -1,5 +1,7 @@
 
-/* -----Binding event handler in Constructor --- */
+/* -----Binding event handler in Constructor --- 
+ -------- Approach 3 ------
+*/
 
 import React, { Component } from 'react'
 
