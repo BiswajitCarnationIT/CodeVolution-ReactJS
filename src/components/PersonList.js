@@ -22,14 +22,6 @@ function PersonList() {
             skill:'Node'
         }
     ]
-    /*const personList = persons.map(person => <h2>I am {person.name}. I know {person.skill}</h2>)
-    
-    return (
-        <div>
-            {personList}
-        </div>
-    )
-    */
     const personList = persons.map(person => (
         <Person personProp = {person}></Person>
     ))
@@ -39,7 +31,6 @@ function PersonList() {
             {personList}
         </div>
     )
-
 
 }
 

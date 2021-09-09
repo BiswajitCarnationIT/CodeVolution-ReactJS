@@ -23,7 +23,8 @@ function PersonList() {
         }
     ]
 
-    //key must be unique
+    //key must be unique 
+    //Key prop is not accessable in child component
     const personList = persons.map(person => (
         <Person key ={person.id} personProp = {person}></Person>
     ))
